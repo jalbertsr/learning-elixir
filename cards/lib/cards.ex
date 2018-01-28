@@ -33,7 +33,10 @@ defmodule Cards do
   end
 
   # pipe operator
+  # inject return as first argument of next function
   def create_hand(hand_size) do
-    
+    Cards.create_deck
+    |> Cards.shuffle
+    |> Cards.deal(hand_size)
   end
 end
