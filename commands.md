@@ -1,8 +1,12 @@
-###### run phoenix server
+###### create phoneix project
+
+```mix phoenix.new #project_name``` 
+
+###### run phoenix server inside IEx (debugging pruposes)
 
  ```iex -S mix phoenix.server```
  
- 
-###### create phoneix project
+###### run phoenix server 
 
-```mix.phoenix.new #project_name``` 
+```mix phoenix.server```
+ 
